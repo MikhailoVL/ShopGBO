@@ -7,6 +7,10 @@ migrations/
 # C extensions
 *.so
 
+#
+
+.idea/
+
 # Distribution / packaging
 bin/
 build/
@@ -18,3 +22,4 @@ lib64/
 parts/
 sdist/
 var/
+envgbo/
