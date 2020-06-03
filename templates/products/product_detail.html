@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{{product}}
+{% block content %}
+{{product}}
+<br>
+
+<p>{{product.description}}</p>
+        <div class="col-3" >
+            <img src="{{MEDIA_URL}}{{product.img}}" width="150" height="150" align="bottom"/>
+        </div>
+
+{% endblock %}
